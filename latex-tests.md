@@ -4,10 +4,10 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX}      &|& \mathrm{English} &|\newline
 &|& \mathrm{-}      &|& \mathrm{-}          &|& \mathrm{-------} &|\newline
-&|& \times          &|& \mathrm{\times}     &|& \mathrm{Mutiply} &|\newline
-&|& +               &|& \mathrm{+}          &|& \mathrm{Add} &|\newline
-&|& -               &|& \mathrm{-}          &|& \mathrm{Subtract} &|\newline
-&|& \div            &|& \mathrm{\div}       &|& \mathrm{Divide} &|\newline
+&|& \times          &|& \text{\times}     &|& \mathrm{Mutiply} &|\newline
+&|& +               &|& \text{+}          &|& \mathrm{Add} &|\newline
+&|& -               &|& \text{-}          &|& \mathrm{Subtract} &|\newline
+&|& \div            &|& \text{\div}       &|& \mathrm{Divide} &|\newline
 \end{align*}
 $$
 
