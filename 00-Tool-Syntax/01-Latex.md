@@ -106,7 +106,7 @@ $$
 
 ### Boundary Characters
 
-The brace characters (e.g. $\{$ and $\}$) need to be escaped. The below table can't show them without causing a rendering error due to the useage of `&` to align things.
+The brace characters (e.g. ${$ and $}$) need to be escaped. The below table can't show them without causing a rendering error due to the useage of `&` to align things.
 
 $$
 \begin{align*}
