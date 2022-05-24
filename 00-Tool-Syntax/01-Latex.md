@@ -124,9 +124,9 @@ $$
 | Symbol | LaTeX | English |
 | - | - | - |
 | $\varnothing$ | `\varnothing` | Empty set
-| $\{1, 2\}$ | `\{1, 2\}` | A set of two elements: 1 and 2
-| $\mathbb{N}$ | `\mathbb{N}` | Natural numbers: $i \in \{ 1, 2, ..., \infty\}$
-| $\mathbb{Z}$ | `\mathbb{Z}` | Integers: $i \in \{ -\infty, ..., -1, 0, 1, ..., \infty\}$
+| $\\{ 1, 2 \\}$ | `\{1, 2\}` | A set of two elements: 1 and 2
+| $\mathbb{N}$ | `\mathbb{N}` | Natural numbers: $i \in \\{ 1, 2, ..., \infty \\}$
+| $\mathbb{Z}$ | `\mathbb{Z}` | Integers: $i \in \\{ -\infty, ..., -1, 0, 1, ..., \infty \\}$
 | $\in$ | `\in` | In / is a member of |
 | $\notin$ | `\notin` | Not in / is not a member of |
 | $\subset$ | `\subset` | Subset |
@@ -140,9 +140,9 @@ $$
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
 &|& \varnothing &|& \textbackslash \text{varnothing} &|& \text{Empty set} &|\newline
-&|& \{1, 2\} &|& \textbackslash \{ \text{1, 2} \textbackslash \} &|& \text{A set of two elements: 1 and 2} &|\newline
-&|& \mathbb{N} &|& \textbackslash \text{mathbb{N}} &|& \text{Natural numbers: } i \in \{ 1, 2 ..., \infty \} &|\newline
-&|& \mathbb{Z} &|& \textbackslash \text{mathbb{Z}} &|& \text{Integers: } i \in \{ -\infty, -1, 0, 1 ..., \infty \} &|\newline
+&|& \\{ 1, 2 \\} &|& \textbackslash \{ \text{1, 2} \textbackslash \} &|& \text{A set of two elements: 1 and 2} &|\newline
+&|& \mathbb{N} &|& \textbackslash \text{mathbb{N}} &|& \text{Natural numbers: } i \in \\{ 1, 2 ..., \infty \\} &|\newline
+&|& \mathbb{Z} &|& \textbackslash \text{mathbb{Z}} &|& \text{Integers: } i \in \\{ -\infty, -1, 0, 1 ..., \infty \\} &|\newline
 &|& \in &|& \textbackslash \text{in} &|& \text{In / is a member of} &|\newline
 &|& \notin &|& \textbackslash \text{notin} &|& \text{Not in / is not a member of} &|\newline
 &|& \subset &|& \textbackslash \text{subset} &|& \text{Subset} &|\newline
