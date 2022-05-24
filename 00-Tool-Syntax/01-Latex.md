@@ -70,10 +70,10 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX}      &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& + &|& \text{+} &|& \mathrm{Add} &|\newline
-&|& - &|& \text{-} &|& \mathrm{Subtract} &|\newline
-&|& \times &|& \textbackslash \text{times} &|& \mathrm{Mutiply} &|\newline
-&|& \div &|& \textbackslash \text{div} &|& \mathrm{Divide} &|\newline
+&|& + &|& \text{+} &|& \text{Add} &|\newline
+&|& - &|& \text{-} &|& \text{Subtract} &|\newline
+&|& \times &|& \textbackslash \text{times} &|& \text{Mutiply} &|\newline
+&|& \div &|& \textbackslash \text{div} &|& \text{Divide} &|\newline
 \end{align*}
 $$
 
@@ -83,12 +83,12 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX}      &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& = &|& \text{=} &|& \mathrm{Equals} &|\newline
+&|& = &|& \text{=} &|& \text{Equals} &|\newline
 &|& \ne &|& \textbackslash \text{ne} &|& Not equals &|\newline
-&|& < &|& \text{<} &|& \mathrm{Less than} &|\newline
-&|& \le &|& \textbackslash \text{le} &|& \mathrm{Less than or equal to} &|\newline
-&|& > &|& \text{>} &|& \mathrm{Greater than} &|\newline
-&|& \ge &|& \textbackslash \text{ge} &|& \mathrm{Greater than or equal to} &|\newline
+&|& < &|& \text{<} &|& \text{Less than} &|\newline
+&|& \le &|& \textbackslash \text{le} &|& \text{Less than or equal to} &|\newline
+&|& > &|& \text{>} &|& \text{Greater than} &|\newline
+&|& \ge &|& \textbackslash \text{ge} &|& \text{Greater than or equal to} &|\newline
 \end{align*}
 $$
 
@@ -98,9 +98,9 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \infty &|& \textbackslash \text{infty} &|& \mathrm{Infinity} &|\newline
-&|& \sum &|& \textbackslash \text{sum} &|& \mathrm{Sum} &|\newline
-&|& \prod &|& \textbackslash \text{prod} &|& \mathrm{Product} &|\newline
+&|& \infty &|& \textbackslash \text{infty} &|& \text{Infinity} &|\newline
+&|& \sum &|& \textbackslash \text{sum} &|& \text{Sum} &|\newline
+&|& \prod &|& \textbackslash \text{prod} &|& \text{Product} &|\newline
 \end{align*}
 $$
 
@@ -110,12 +110,12 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \{ &|& \textbackslash \{ &|& \mathrm{Left brace} &|\newline
-&|& \} &|& \textbackslash \} &|& \mathrm{Right brace} &|\newline
-&|& ( &|& \text{(} &|& \mathrm{Left parenthesis} &|\newline
-&|& ) &|& \text{)} &|& \mathrm{Right parenthesis} &|\newline
-&|& [ &|& \text{[} &|& \mathrm{Left bracket} &|\newline
-&|& ] &|& \text{]} &|& \mathrm{Right bracket} &|\newline
+&|& \{ &|& \textbackslash \{ &|& \text{Left brace} &|\newline
+&|& \} &|& \textbackslash \} &|& \text{Right brace} &|\newline
+&|& ( &|& \text{(} &|& \text{Left parenthesis} &|\newline
+&|& ) &|& \text{)} &|& \text{Right parenthesis} &|\newline
+&|& [ &|& \text{[} &|& \text{Left bracket} &|\newline
+&|& ] &|& \text{]} &|& \text{Right bracket} &|\newline
 \end{align*}
 $$
 
@@ -139,17 +139,17 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \varnothing &|& \textbackslash \text{varnothing} &|& \mathrm{Empty set} &|\newline
-&|& \{1, 2\} &|& \textbackslash \{ \text{1, 2} \textbackslash \} &|& \mathrm{A set of two elements: 1 and 2} &|\newline
-&|& \mathbb{N} &|& \textbackslash \text{mathbb{N}} &|& \mathrm{Natural numbers: } i \in \{ 1, 2 ..., \infty \} &|\newline
-&|& \mathbb{Z} &|& \textbackslash \text{mathbb{Z}} &|& \mathrm{Integers: } i \in \{ -\infty, -1, 0, 1 ..., \infty \} &|\newline
-&|& \in &|& \textbackslash \text{in} &|& \mathrm{In / is a member of} &|\newline
-&|& \notin &|& \textbackslash \text{notin} &|& \mathrm{Not in / is not a member of} &|\newline
-&|& \subset &|& \textbackslash \text{subset} &|& \mathrm{Subset} &|\newline
-&|& \subseteq &|& \textbackslash \text{subseteq} &|& \mathrm{Subset or equal to} &|\newline
-&|& nsubseteq &|& \textbackslash \text{nsubseteq} &|& \mathrm{Not subset or equal to} &|\newline
-&|& \cup &|& \textbackslash \text{cup} &|& \mathrm{Set union} &|\newline
-&|& \cap &|& \textbackslash \text{cap} &|& \mathrm{Set intersection} &|\newline
+&|& \varnothing &|& \textbackslash \text{varnothing} &|& \text{Empty set} &|\newline
+&|& \{1, 2\} &|& \textbackslash \{ \text{1, 2} \textbackslash \} &|& \text{A set of two elements: 1 and 2} &|\newline
+&|& \mathbb{N} &|& \textbackslash \text{mathbb{N}} &|& \text{Natural numbers: } i \in \{ 1, 2 ..., \infty \} &|\newline
+&|& \mathbb{Z} &|& \textbackslash \text{mathbb{Z}} &|& \text{Integers: } i \in \{ -\infty, -1, 0, 1 ..., \infty \} &|\newline
+&|& \in &|& \textbackslash \text{in} &|& \text{In / is a member of} &|\newline
+&|& \notin &|& \textbackslash \text{notin} &|& \text{Not in / is not a member of} &|\newline
+&|& \subset &|& \textbackslash \text{subset} &|& \text{Subset} &|\newline
+&|& \subseteq &|& \textbackslash \text{subseteq} &|& \text{Subset or equal to} &|\newline
+&|& nsubseteq &|& \textbackslash \text{nsubseteq} &|& \text{Not subset or equal to} &|\newline
+&|& \cup &|& \textbackslash \text{cup} &|& \text{Set union} &|\newline
+&|& \cap &|& \textbackslash \text{cap} &|& \text{Set intersection} &|\newline
 \end{align*}
 $$
 
