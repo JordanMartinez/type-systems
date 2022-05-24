@@ -80,9 +80,9 @@ $$
 &|& \\_ &|& \textbackslash \textbackslash \\_ &|& \text{Underscore} &|\newline
 &|& \\{ &|& \textbackslash \textbackslash \\{ &|& \text{Left Brace} &|\newline
 &|& \\} &|& \textbackslash \textbackslash \\} &|& \text{Right Brace} &|\newline
-&|& \textasciitilde \quad &|& \textbackslash \text{textasciitilde} \quad &|& \text{Tilde} &|\newline
-&|& \textbackslash \quad &|& \textbackslash \text{textbackslash} \quad &|& \text{Backslash} &|\newline
-&|& \textasciicircum \quad &|& \textbackslash \text{textasciicircum} \quad &|& \text{Caret} &|\newline
+&|& \textasciitilde &|& \textbackslash \text{textasciitilde} &|& \text{Tilde} &|\newline
+&|& \textbackslash &|& \textbackslash \text{textbackslash} &|& \text{Backslash} &|\newline
+&|& \textasciicircum &|& \textbackslash \text{textasciicircum} &|& \text{Caret} &|\newline
 \end{align*}
 $$
 
