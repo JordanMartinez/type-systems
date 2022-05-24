@@ -260,7 +260,7 @@ $$
 &|& \Upsilon &|& \textbackslash \text{Upsilon} &|& \text{u} &|\newline
 &|& \Phi &|& \textbackslash \text{Phi} &|& \text{ph} &|\newline
 &|& \Chi &|& \textbackslash \text{Chi} &|& \text{kh} &|\newline
-&|& \Ssi &|& \textbackslash \text{Psi} &|& \text{ps} &|\newline
+&|& \Psi &|& \textbackslash \text{Psi} &|& \text{ps} &|\newline
 &|& \Omega &|& \textbackslash \text{omega} &|& \text{o (long)} &|\newline
 \end{align*}
 $$
