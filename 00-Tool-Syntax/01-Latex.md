@@ -54,7 +54,7 @@ $$
 
 ## Markdown Test
 
-$Inline LaTeX Expression$
+This is an inline LaTeX expression, "$y = x + 2$", in a paragraph.
 
 $$
 Multi
