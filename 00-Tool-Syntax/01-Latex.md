@@ -292,6 +292,7 @@ $$
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
 &|& x^2 &|& \text{x} \textasciicircum \text{2} &|& \text{Superscript} &|\newline
 &|& x^{n+2} &|& \text{x} \textasciicircum \\{ \text{n+2} \\} &|& \text{Superscript expression} &|\newline
+&|& x2 &|& \text{x2} &|& \text{No super/sub script} &|\newline
 &|& x_2 &|& \text{x} \\_ \text{2} &|& \text{Subscript} &|\newline
 &|& x_{n+2} &|& \text{x} \\_ \\{ \text{n+2} \\} &|& \text{Subscript expression} &|\newline
 \end{align*}
