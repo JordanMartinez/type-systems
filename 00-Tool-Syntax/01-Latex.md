@@ -323,7 +323,7 @@ $$
 &|& \Large M &|& \textbackslash \text{Large M} &|& \text{+2} &|\newline
 &|& \large M &|& \textbackslash \text{large M} &|& \text{+1} &|\newline
 &|& \normalsize M &|& \textbackslash \text{normalsize M} &|& \text{0} &|\newline
-&|& \M &|& \text{M} &|& \text{0} &|\newline
+&|& M &|& \text{M} &|& \text{0} &|\newline
 &|& \small M &|& \textbackslash \text{small M} &|& \text{-1} &|\newline
 &|& \scriptsize M &|& \textbackslash \text{scriptsize M} &|& \text{-2} &|\newline
 &|& \tiny M &|& \textbackslash \text{tiny M} &|& \text{-3} &|\newline
