@@ -6,6 +6,51 @@ Sources used:
 - [Using LaTeX in Markdown](https://ashki23.github.io/markdown-latex.html#latex)
 - [List of LaTeX Symbols](https://latex.wikia.org/wiki/List_of_LaTeX_symbols)
 
+**Note:** You can right-click the rendered expression to get a Mathjax context menu. The following menu options may be helpful:
+- `Show Math As > Tex Commands`: See what the underlying LaTeX is that produces that expression
+- `Copy to Clipboard > Tex Commands`: Copy the underlying LaTeX to your clipboard
+
+## LaTeX Tables
+
+Since GitHub doesn't render LaTeX correctly when it's used in a table...
+```markdown
+| Symbol | LaTeX |
+| - | - |
+| $$\times$$ | `\times` |
+| $\div$ | `\div` |
+```
+
+| Symbol | LaTeX |
+| - | - |
+| $$\times$$ | `\times` |
+| $\div$ | `\div` |
+
+... we'll use LaTeX to define a table-like view instead.
+
+```markdown
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& + &|& \text{+} &|& \mathrm{Add} &|\newline
+&|& - &|& \text{-} &|& \mathrm{Subtract} &|\newline
+&|& \times &|& \textbackslash \text{times} &|& \mathrm{Mutiply} &|\newline
+&|& \div &|& \textbackslash \text{div} &|& \mathrm{Divide} &|\newline
+\end{align*}
+$$
+```
+
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& + &|& \text{+} &|& \mathrm{Add} &|\newline
+&|& - &|& \text{-} &|& \mathrm{Subtract} &|\newline
+&|& \times &|& \textbackslash \text{times} &|& \mathrm{Mutiply} &|\newline
+&|& \div &|& \textbackslash \text{div} &|& \mathrm{Divide} &|\newline
+\end{align*}
+$$
+
 ## Markdown Test
 
 $Inline LaTeX Expression$
@@ -21,43 +66,58 @@ $$
 
 ### Math operators
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $$+$$ | `+` | Plus |
-| $-$ | `-` | Minus |
-| $\times$ | `\times` | Times |
-| $\div$ | `\div` | Divide |
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX}      &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& + &|& \text{+} &|& \mathrm{Add} &|\newline
+&|& - &|& \text{-} &|& \mathrm{Subtract} &|\newline
+&|& \times &|& \textbackslash \text{times} &|& \mathrm{Mutiply} &|\newline
+&|& \div &|& \textbackslash \text{div} &|& \mathrm{Divide} &|\newline
+\end{align*}
+$$
 
 ### Equality
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $=$ | `=` | Equals |
-| $\ne$ | `\ne` | Not Equals |
-| $<$ | `<` | Less than |
-| $\le$ | `\le` | Less than or equal to |
-| $>$ | `>` | Greater than |
-| $\ge$ | `\ge` | Greater than or equal to |
-
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX}      &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& = &|& \text{=} &|& \mathrm{Equals} &|\newline
+&|& \ne &|& \textbackslash \text{ne} &|& Not equals &|\newline
+&|& < &|& \text{<} &|& \mathrm{Less than} &|\newline
+&|& \le &|& \textbackslash \text{le} &|& \mathrm{Less than or equal to} &|\newline
+&|& > &|& \text{>} &|& \mathrm{Greater than} &|\newline
+&|& \ge &|& \textbackslash \text{ge} &|& \mathrm{Greater than or equal to} &|\newline
+\end{align*}
+$$
 
 ### Common Mathematical Symbols/Constants
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\infty$ | `\infty` | Infinity
-| $\sum$ | `\sum` | Sum
-| $\prod$ | `\prod` | Product
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \infty &|& \textbackslash \text{infty} &|& \mathrm{Infinity} &|\newline
+&|& \sum &|& \textbackslash \text{sum} &|& \mathrm{Sum} &|\newline
+&|& \prod &|& \textbackslash \text{prod} &|& \mathrm{Product} &|\newline
+\end{align*}
+$$
 
 ### Boundary Characters
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\{$ | `\}` | Left brace
-| $\}$ | `\}` | Right brace
-| $($ | `(` | Left parenthesis
-| $)$ | `)` | Right parenthesis
-| $[$ | `[` | Left bracket
-| $]$ | `]` | Right bracket
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \{ &|& \textbackslash \{ &|& \mathrm{Left brace} &|\newline
+&|& \} &|& \textbackslash \} &|& \mathrm{Right brace} &|\newline
+&|& ( &|& \text{(} &|& \mathrm{Left parenthesis} &|\newline
+&|& ) &|& \text{)} &|& \mathrm{Right parenthesis} &|\newline
+&|& [ &|& \text{[} &|& \mathrm{Left bracket} &|\newline
+&|& ] &|& \text{]} &|& \mathrm{Right bracket} &|\newline
+\end{align*}
+$$
 
 ### Sets/Collections
 
@@ -74,6 +134,24 @@ $$
 | $\nsubseteq$ | `\nsubseteq` | Not subset or equals |
 | $\cup$ | `\cup` | Set Union |
 | $\cap$ | `\cap` | Set Intersection |
+
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \varnothing &|& \textbackslash \text{varnothing} &|& \mathrm{Empty set} &|\newline
+&|& \{1, 2\} &|& \textbackslash \{ \text{1, 2} \textbackslash \} &|& \mathrm{A set of two elements: 1 and 2} &|\newline
+&|& \mathbb{N} &|& \textbackslash \text{mathbb{N}} &|& \mathrm{Natural numbers: } i \in \{ 1, 2 ..., \infty \} &|\newline
+&|& \mathbb{Z} &|& \textbackslash \text{mathbb{Z}} &|& \mathrm{Integers: } i \in \{ -\infty, -1, 0, 1 ..., \infty \} &|\newline
+&|& \in &|& \textbackslash \text{in} &|& \mathrm{In / is a member of} &|\newline
+&|& \notin &|& \textbackslash \text{notin} &|& \mathrm{Not in / is not a member of} &|\newline
+&|& \subset &|& \textbackslash \text{subset} &|& \mathrm{Subset} &|\newline
+&|& \subseteq &|& \textbackslash \text{subseteq} &|& \mathrm{Subset or equal to} &|\newline
+&|& nsubseteq &|& \textbackslash \text{nsubseteq} &|& \mathrm{Not subset or equal to} &|\newline
+&|& \cup &|& \textbackslash \text{cup} &|& \mathrm{Set union} &|\newline
+&|& \cap &|& \textbackslash \text{cap} &|& \mathrm{Set intersection} &|\newline
+\end{align*}
+$$
 
 ### Logic
 
