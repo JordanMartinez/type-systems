@@ -110,8 +110,10 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \{ &|& \textbackslash \{ &|& \text{Left brace} &|\newline
-&|& \} &|& \textbackslash \} &|& \text{Right brace} &|\newline
+&|& ( &|& \text{(} &|& \text{Left parenthesis} &|\newline
+&|& ) &|& \text{)} &|& \text{Right parenthesis} &|\newline
+&|& [ &|& \text{[} &|& \text{Left bracket} &|\newline
+&|& ] &|& \text{]} &|& \text{Right bracket} &|\newline
 \end{align*}
 $$
 
