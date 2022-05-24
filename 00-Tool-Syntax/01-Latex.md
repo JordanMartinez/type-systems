@@ -306,8 +306,8 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \color{red}{x} &|& \textbackslash \text{color} \\{ \text{red} \\} \\{ \text{x} \\} &|& \text{} &|\newline
-&|& \color{#FEFE33}{x} &|& \textbackslash \text{color} \\{ \\# \text{FEFE33} \\} \\{ \text{x} \\} &|& \text{} &|\newline
+&|& \color{red}{x} &|& \textbackslash \text{color} \\{ \text{red} \\} \\{ \text{x} \\} &|& \text{Set font color to named color} &|\newline
+&|& \color{#FEFE33}{x} &|& \textbackslash \text{color} \\{ \\# \text{FEFE33} \\} \\{ \text{x} \\} &|& \text{Set font color to hex color} &|\newline
 \end{align*}
 $$
 
