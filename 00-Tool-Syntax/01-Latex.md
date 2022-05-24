@@ -202,61 +202,68 @@ $$
 
 #### Lowercase
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\alpha$ | `\alpha` | a (short)
-| $\beta$ | `\beta` | b
-| $\gamma$ | `\gamma` | g
-| $\delta$ | `\delta` | d
-| $\epsilon$ | `\epsiolon` | e
-| $\zeta$ | `\zeta` | z
-| $\eta$ | `\eta` | a (long)
-| $\theta$ | `\theta` | th
-| $\iota$ | `\iota` | i
-| $\kappa$ | `\kappa` | k
-| $\lambda$ | `\lambda` | l
-| $\mu$ | `\mu` | m
-| $\nu$ | `\nu` | n
-| $\xi$ | `\xi` | ks
-| $\omicron$ | `\omicron` | o (short)
-| $\pi$ | `\pi` | p
-| $\rho$ | `\rho` | r
-| $\sigma$ | `\sigma` | s
-| $\tau$ | `\tau` | t
-| $\upsilon$ | `\upsilon` | u
-| $\phi$ | `\phi` | ph
-| $\chi$ | `\chi` | kh
-| $\psi$ | `\psi` | ps
-| $\omega$ | `\omega` | o (long)
-
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \alpha &|& \textbackslash \text{alpha} &|& \text{a (short)} &|\newline
+&|& \beta &|& \textbackslash \text{beta} &|& \text{b} &|\newline
+&|& \gamma &|& \textbackslash \text{gamma} &|& \text{g} &|\newline
+&|& \delta &|& \textbackslash \text{delta} &|& \text{d} &|\newline
+&|& \epsilon &|& \textbackslash \text{epsilon} &|& \text{e} &|\newline
+&|& \zeta &|& \textbackslash \text{zeta} &|& \text{z} &|\newline
+&|& \eta &|& \textbackslash \text{eta} &|& \text{a (long)} &|\newline
+&|& \theta &|& \textbackslash \text{theta} &|& \text{th} &|\newline
+&|& \iota &|& \textbackslash \text{iota} &|& \text{i} &|\newline
+&|& \kappa &|& \textbackslash \text{kappa} &|& \text{k} &|\newline
+&|& \lambda &|& \textbackslash \text{lambda} &|& \text{l} &|\newline
+&|& \mu &|& \textbackslash \text{mu} &|& \text{m} &|\newline
+&|& \nu &|& \textbackslash \text{nu} &|& \text{n} &|\newline
+&|& \xi &|& \textbackslash \text{xi} &|& \text{ks} &|\newline
+&|& \omicron &|& \textbackslash \text{omicron} &|& \text{o (short)} &|\newline
+&|& \pi &|& \textbackslash \text{pi} &|& \text{p} &|\newline
+&|& \rho &|& \textbackslash \text{rho} &|& \text{r} &|\newline
+&|& \sigma &|& \textbackslash \text{sigma} &|& \text{s} &|\newline
+&|& \tau &|& \textbackslash \text{tau} &|& \text{t} &|\newline
+&|& \upsilon &|& \textbackslash \text{upsilon} &|& \text{u} &|\newline
+&|& \phi &|& \textbackslash \text{phi} &|& \text{ph} &|\newline
+&|& \chi &|& \textbackslash \text{chi} &|& \text{kh} &|\newline
+&|& \psi &|& \textbackslash \text{psi} &|& \text{ps} &|\newline
+&|& \omega &|& \textbackslash \text{omega} &|& \text{o (long)} &|\newline
+\end{align*}
+$$
 #### Uppercase
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\Alpha$ | `\Alpha` | a (short)
-| $\Beta$ | `\Beta` | b
-| $\Gamma$ | `\Gamma` | g
-| $\Delta$ | `\Delta` | d
-| $\Epsilon$ | `\Epsiolon` | e
-| $\Zeta$ | `\Zeta` | z
-| $\Eta$ | `\Eta` | a (long)
-| $\Theta$ | `\Theta` | th
-| $\Iota$ | `\Iota` | i
-| $\Kappa$ | `\Kappa` | k
-| $\Lambda$ | `\Lambda` | l
-| $\Mu$ | `\Mu` | m
-| $\Nu$ | `\Nu` | n
-| $\Xi$ | `\Xi` | ks
-| $\Omicron$ | `\Omicron` | o (short)
-| $\Pi$ | `\Pi` | p
-| $\Rho$ | `\Rho` | r
-| $\Sigma$ | `\Sigma` | s
-| $\Tau$ | `\Tau` | t
-| $\Upsilon$ | `\Upsilon` | u
-| $\Phi$ | `\Phi` | ph
-| $\Chi$ | `\Chi` | kh
-| $\Psi$ | `\Psi` | ps
-| $\Omega$ | `\Omega` | o (long)
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \Alpha &|& \textbackslash \text{Alpha} &|& \text{a (short)} &|\newline
+&|& \Beta &|& \textbackslash \text{Beta} &|& \text{b} &|\newline
+&|& \Gamma &|& \textbackslash \text{Gamma} &|& \text{g} &|\newline
+&|& \Delta &|& \textbackslash \text{Delta} &|& \text{d} &|\newline
+&|& \Epsilon &|& \textbackslash \text{Epsilon} &|& \text{e} &|\newline
+&|& \Zeta &|& \textbackslash \text{Zeta} &|& \text{z} &|\newline
+&|& \Eta &|& \textbackslash \text{Eta} &|& \text{a (long)} &|\newline
+&|& \Theta &|& \textbackslash \text{theta} &|& \text{th} &|\newline
+&|& \Iota &|& \textbackslash \text{Iota} &|& \text{i} &|\newline
+&|& \Kappa &|& \textbackslash \text{Kappa} &|& \text{k} &|\newline
+&|& \Lambda &|& \textbackslash \text{Lambda} &|& \text{l} &|\newline
+&|& \Mu &|& \textbackslash \text{Mu} &|& \text{m} &|\newline
+&|& \Nu &|& \textbackslash \text{Nu} &|& \text{n} &|\newline
+&|& \Xi &|& \textbackslash \text{Xi} &|& \text{ks} &|\newline
+&|& \Omicron &|& \textbackslash \text{Omicron} &|& \text{o (short)} &|\newline
+&|& \Pi &|& \textbackslash \text{Pi} &|& \text{p} &|\newline
+&|& \Rho &|& \textbackslash \text{Rho} &|& \text{r} &|\newline
+&|& \Sigma &|& \textbackslash \text{sigma} &|& \text{s} &|\newline
+&|& \Tau &|& \textbackslash \text{Tau} &|& \text{t} &|\newline
+&|& \Upsilon &|& \textbackslash \text{Upsilon} &|& \text{u} &|\newline
+&|& \Phi &|& \textbackslash \text{Phi} &|& \text{ph} &|\newline
+&|& \Chi &|& \textbackslash \text{Chi} &|& \text{kh} &|\newline
+&|& \Ssi &|& \textbackslash \text{Psi} &|& \text{ps} &|\newline
+&|& \Omega &|& \textbackslash \text{omega} &|& \text{o (long)} &|\newline
+\end{align*}
+$$
 
 ### Inserting text in an expression
 
