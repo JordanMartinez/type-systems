@@ -122,20 +122,6 @@ $$
 
 ### Sets/Collections
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\varnothing$ | `\varnothing` | Empty set
-| $\\{ 1, 2 \\}$ | `\{1, 2\}` | A set of two elements: 1 and 2
-| $\mathbb{N}$ | `\mathbb{N}` | Natural numbers: $i \in \\{ 1, 2, \ldots, \infty \\}$
-| $\mathbb{Z}$ | `\mathbb{Z}` | Integers: $i \in \\{ -\infty, \ldots, -1, 0, 1, \ldots, \infty \\}$
-| $\in$ | `\in` | In / is a member of |
-| $\notin$ | `\notin` | Not in / is not a member of |
-| $\subset$ | `\subset` | Subset |
-| $\subseteq$ | `\subseteq` | Subset or equals |
-| $\nsubseteq$ | `\nsubseteq` | Not subset or equals |
-| $\cup$ | `\cup` | Set Union |
-| $\cap$ | `\cap` | Set Intersection |
-
 $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
