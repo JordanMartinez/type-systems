@@ -155,7 +155,7 @@ $$
 &|& \notin &|& \textbackslash \text{notin} &|& \text{Not in / is not a member of} &|\newline
 &|& \subset &|& \textbackslash \text{subset} &|& \text{Subset} &|\newline
 &|& \subseteq &|& \textbackslash \text{subseteq} &|& \text{Subset or equal to} &|\newline
-&|& nsubseteq &|& \textbackslash \text{nsubseteq} &|& \text{Not subset or equal to} &|\newline
+&|& \nsubseteq &|& \textbackslash \text{nsubseteq} &|& \text{Not subset or equal to} &|\newline
 &|& \cup &|& \textbackslash \text{cup} &|& \text{Set union} &|\newline
 &|& \cap &|& \textbackslash \text{cap} &|& \text{Set intersection} &|\newline
 \end{align*}
