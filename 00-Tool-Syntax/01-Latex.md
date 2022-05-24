@@ -112,6 +112,7 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \\{ \quad &|& \text{ignore} \quad &|& \text{Left Brace} &|\newline
 &|& ( \quad &|& \text{(} \quad &|& \text{Left parenthesis} &|\newline
 &|& ) \quad &|& \text{)} \quad &|& \text{Right parenthesis} &|\newline
 &|& [ \quad &|& \text{[} \quad &|& \text{Left bracket} &|\newline
