@@ -65,6 +65,27 @@ $$
 
 ## Symbols
 
+### Escaping Characters
+
+See https://tex.stackexchange.com/questions/34580/escape-character-in-latex but note that such characters must be `\`-escaped **twice** (e.g. `\\{`, not `\{`).
+
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \\& &|& \textbackslash \textbackslash \\& &|& \text{Ampersand} &|\newline
+&|& \\% &|& \textbackslash \textbackslash \\% &|& \text{Percentage} &|\newline
+&|& \\$ &|& \textbackslash \textbackslash \\$ &|& \text{Dollar} &|\newline
+&|& \\# &|& \textbackslash \textbackslash \\# &|& \text{Hash} &|\newline
+&|& \\_ &|& \textbackslash \textbackslash \\_ &|& \text{Underscore} &|\newline
+&|& \\{ &|& \textbackslash \textbackslash \\{ &|& \text{Left Brace} &|\newline
+&|& \\} &|& \textbackslash \textbackslash \\} &|& \text{Right Brace} &|\newline
+&|& \textasciitilde \quad &|& \textbackslash \text{textasciitilde} \quad &|& \text{Tilde} &|\newline
+&|& \textbackslash \quad &|& \textbackslash \text{textbackslash} \quad &|& \text{Backslash} &|\newline
+&|& \textasciicircum \quad &|& \textbackslash \text{textasciicircum} \quad &|& \text{Caret} &|\newline
+\end{align*}
+$$
+
 ### Boundary Characters
 
 $$
