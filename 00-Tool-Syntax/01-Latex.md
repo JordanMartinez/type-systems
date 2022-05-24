@@ -290,8 +290,8 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& x^2 &|& \text{x^2} &|& \text{Superscript} &|\newline
-&|& x^{n+2} &|& \text{x^} \\{ \text{n+2} \\} &|& \text{Superscript expression} &|\newline
+&|& x^2 &|& \text{x} \textasciicircum \text{2} &|& \text{Superscript} &|\newline
+&|& x^{n+2} &|& \text{x} \textasciicircum \\{ \text{n+2} \\} &|& \text{Superscript expression} &|\newline
 &|& x_2 &|& \text{x_2} &|& \text{Subscript} &|\newline
 &|& x_{n+2} &|& \text{x_} \\{ \text{n+2} \\} &|& \text{Subscript expression} &|\newline
 \end{align*}
