@@ -106,13 +106,12 @@ $$
 
 ### Boundary Characters
 
-The brace characters (e.g. ${$ and $}$) need to be escaped. The below table can't show them without causing a rendering error due to the useage of `&` to align things.
-
 $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \\{ \quad &|& \text{ignore} \quad &|& \text{Left Brace} &|\newline
+&|& \\{ \quad &|& \textbackslash \\{ \quad &|& \text{Left Brace} &|\newline
+&|& \\} \quad &|& \textbackslash \\} \quad &|& \text{Right Brace} &|\newline
 &|& ( \quad &|& \text{(} \quad &|& \text{Left parenthesis} &|\newline
 &|& ) \quad &|& \text{)} \quad &|& \text{Right parenthesis} &|\newline
 &|& [ \quad &|& \text{[} \quad &|& \text{Left bracket} &|\newline
