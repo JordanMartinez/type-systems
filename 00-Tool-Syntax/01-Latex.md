@@ -273,11 +273,11 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& a \! a &|& \textbackslash \text{!} &|& \text{Negative space} &|\newline
+&|& a \\! a &|& \textbackslash \textbackslash \text{!} &|& \text{Negative space} &|\newline
 &|& a a &|& \text{a a} &|& \text{No space} &|\newline
-&|& a \, a &|& \textbackslash \text{,} &|& \text{Small space} &|\newline
-&|& a \: a &|& \textbackslash \text{:} &|& \text{Medium space} &|\newline
-&|& a \; a &|& \textbackslash \text{;} &|& \text{Large space} &|\newline
+&|& a \\, a &|& \textbackslash \textbackslash \text{,} &|& \text{Small space} &|\newline
+&|& a \\: a &|& \textbackslash \textbackslash \text{:} &|& \text{Medium space} &|\newline
+&|& a \\; a &|& \textbackslash \textbackslash \text{;} &|& \text{Large space} &|\newline
 &|& a \quad a &|& \textbackslash \text{quad} &|& \text{Horizontal space} &|\newline
 &|& a \qquad a &|& \textbackslash \text{qquad} &|& \text{Large horizontal space} &|\newline
 \end{align*}
