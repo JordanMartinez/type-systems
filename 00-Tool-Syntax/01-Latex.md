@@ -84,7 +84,7 @@ $$
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX}      &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
 &|& = &|& \text{=} &|& \text{Equals} &|\newline
-&|& \ne &|& \textbackslash \text{ne} &|& Not equals &|\newline
+&|& \ne &|& \textbackslash \text{ne} &|& \text{Not equals} &|\newline
 &|& < &|& \text{<} &|& \text{Less than} &|\newline
 &|& \le &|& \textbackslash \text{le} &|& \text{Less than or equal to} &|\newline
 &|& > &|& \text{>} &|& \text{Greater than} &|\newline
