@@ -65,6 +65,21 @@ $$
 
 ## Symbols
 
+### Boundary Characters
+
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \\{ \quad &|& \textbackslash \textbackslash \\{ \quad &|& \text{Left Brace} &|\newline
+&|& \\} \quad &|& \textbackslash \textbackslash \\} \quad &|& \text{Right Brace} &|\newline
+&|& ( \quad &|& \text{(} \quad &|& \text{Left parenthesis} &|\newline
+&|& ) \quad &|& \text{)} \quad &|& \text{Right parenthesis} &|\newline
+&|& [ \quad &|& \text{[} \quad &|& \text{Left bracket} &|\newline
+&|& ] \quad &|& \text{]} \quad &|& \text{Right bracket} &|\newline
+\end{align*}
+$$
+
 ### Math operators
 
 $$
@@ -102,21 +117,6 @@ $$
 &|& \infty &|& \textbackslash \text{infty} &|& \text{Infinity} &|\newline
 &|& \sum &|& \textbackslash \text{sum} &|& \text{Sum} &|\newline
 &|& \prod &|& \textbackslash \text{prod} &|& \text{Product} &|\newline
-\end{align*}
-$$
-
-### Boundary Characters
-
-$$
-\begin{align*}
-&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
-&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \\{ \quad &|& \textbackslash \textbackslash \\{ \quad &|& \text{Left Brace} &|\newline
-&|& \\} \quad &|& \textbackslash \textbackslash \\} \quad &|& \text{Right Brace} &|\newline
-&|& ( \quad &|& \text{(} \quad &|& \text{Left parenthesis} &|\newline
-&|& ) \quad &|& \text{)} \quad &|& \text{Right parenthesis} &|\newline
-&|& [ \quad &|& \text{[} \quad &|& \text{Left bracket} &|\newline
-&|& ] \quad &|& \text{]} \quad &|& \text{Right bracket} &|\newline
 \end{align*}
 $$
 
