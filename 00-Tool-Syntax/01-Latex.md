@@ -110,8 +110,8 @@ $$
 \begin{align*}
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
-&|& \{ &|& \textbackslash \text{\{} &|& \text{Left brace} &|\newline
-&|& \} &|& \textbackslash \text{\}} &|& \text{Right brace} &|\newline
+&|& \{ &|& \textbackslash \{ &|& \text{Left brace} &|\newline
+&|& \} &|& \textbackslash \} &|& \text{Right brace} &|\newline
 \end{align*}
 $$
 
