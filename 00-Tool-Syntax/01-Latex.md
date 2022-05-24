@@ -142,18 +142,22 @@ $$
 
 ### Logic
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\forall$ | `\forall` | Forall. Universal quantification. For every 'thing', something is true |
-| $\exists$ | `\exists` | Exists. Existential quantification. For at least one 'thing', something is true |
-| $\nexists$ | `\nexists` | Not Exists |
-| $\lnot$ | `\lnot` | Not
-| $\lor$ | `\lor` | Or
-| $\land$ | `\land` | And
-| $\bot$ | `\bot` | Bottom / false
-| $\top$ | `\top` | Top / true
-| $.$ | `.` | Dot
-| $\vdash$ | `\vdash` | Turnstile
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \forall &|& \textbackslash \text{forall} &|& \text{Forall. Universal quantification. For every 'thing', something is true.} &|\newline
+&|& \exists &|& \textbackslash \text{exists} &|& \text{Exists. Existential quantification. For at least one 'thing', something is true.} &|\newline
+&|& \nexists &|& \textbackslash \text{nexists} &|& \text{Not exists} &|\newline
+&|& \lnot &|& \textbackslash \text{lnot} &|& \text{Logical Not} &|\newline
+&|& \lor &|& \textbackslash \text{lor} &|& \text{Logical Or} &|\newline
+&|& \land &|& \textbackslash \text{land} &|& \text{Logical And} &|\newline
+&|& \bot &|& \textbackslash \text{bot} &|& \text{Bottom / false} &|\newline
+&|& \top &|& \textbackslash \text{top} &|& \text{Top / true} &|\newline
+&|& . &|& \text{.} &|& \text{Dot} &|\newline
+&|& \vdash &|& \textbackslash \text{vdash} &|& \text{Turnstile} &|\newline
+\end{align*}
+$$
 
 ## Arrows
 
