@@ -161,17 +161,21 @@ $$
 
 ## Arrows
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\implies$ | `\implies` | Implies |
-| $\impliedby$ | `\impliedby` | Implied by |
-| $\to$ | `\to` | To / short thin right arrow |
-| $\rightarrow$ | `\rightarrow` | short thin right arrow
-| $\longrightarrow$ | `\longrightarrow` | long thin right arrow |
-| $\Rightarrow$ | `\Rightarrow` | short fat right arrow
-| $\Longrightarrow$ | `\Longrightarrow` | long fat right arrow |
-| $\gg$ | `\gg` | Two arrowhead (?)
-| $\ggg$ | `\ggg` | Three arrowhead (?).
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \implies &|& \textbackslash \text{implies} &|& \text{Implies} &|\newline
+&|& \impliedby &|& \textbackslash \text{impliedby} &|& \text{Implied by} &|\newline
+&|& \to &|& \textbackslash \text{to} &|& \text{To / short thin right arrow} &|\newline
+&|& \rightarrow &|& \textbackslash \text{rightarrow} &|& \text{short thin right arrow} &|\newline
+&|& \longrightarrow &|& \textbackslash \text{longrightarrow} &|& \text{long thin right arrow} &|\newline
+&|& \Rightarrow &|& \textbackslash \text{Rightarrow} &|& \text{short fat right arrow} &|\newline
+&|& \Longrightarrow &|& \textbackslash \text{Longrightarrow} &|& \text{long fat right arrow} &|\newline
+&|& \gg &|& \textbackslash \text{gg} &|& \text{Two arrowhead (?)} &|\newline
+&|& \ggg &|& \textbackslash \text{ggg} &|& \text{Three arrowhead (?)} &|\newline
+\end{align*}
+$$
 
 ### Greek Letters
 
