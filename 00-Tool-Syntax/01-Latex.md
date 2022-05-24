@@ -286,12 +286,16 @@ $$
 
 #### Superscript / Subscript
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $x^2$ | `x^2` | Superscript |
-| $x^{n+2}$ | `x^{n+2}` | Superscript expression |
-| $x_1$ | `x_1` | Subscript |
-| $x_{n-1}$ | `x_{n-1}` | Subscript expression |
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& x^2 &|& \text{x^2} &|& \text{Superscript} &|\newline
+&|& x^{n+2} &|& \text{x^} \\{ \text{n+2} \\} &|& \text{Superscript expression} &|\newline
+&|& x_2 &|& \text{x_2} &|& \text{Subscript} &|\newline
+&|& x_{n+2} &|& \text{x_} \\{ \text{n+2} \\} &|& \text{Subscript expression} &|\newline
+\end{align*}
+$$
 
 #### Font Colors
 
