@@ -302,10 +302,14 @@ $$
 
 See [LaTeX Colors](https://latexcolor.com/)
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\color{red}{x}$ | `\color{red}{x}` | Color font with named color
-| $\color{#FEFE33}{x}$ | `\color{#FEFE33}{x}` | Color font with hex color
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \color{red}{x} &|& \textbackslash \text{color} \\{ \text{red} \\} \\{ \text{x} \\} &|& \text{} &|\newline
+&|& \color{#FEFE33}{x} &|& \textbackslash \text{color} \\{ \text{#FEFE33} \\} \\{ \text{x} \\} &|& \text{} &|\newline
+\end{align*}
+$$
 
 #### Font Sizes
 
