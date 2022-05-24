@@ -313,15 +313,19 @@ $$
 
 #### Font Sizes
 
-| Symbol | LaTeX | English |
-| - | - | - |
-| $\Huge M$ | `\Huge` | +5
-| $\huge M$ | `\huge` | +4
-| $\LARGE M$ | `\LARGE` | +3
-| $\Large M$ | `\Large` | +2
-| $\large M$ | `\large` | +1
-| $\normalsize M$ | `\normalsize` | 0
-| $M$ | - | 0
-| $\small M$ | `small` | -1
-| $\scriptsize M$ | `scriptsize` | -2
-| $\tiny M$ | `tiny` | -3
+$$
+\begin{align*}
+&|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
+&|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
+&|& \Huge M &|& \textbackslash \text{Huge M} &|& \text{+5} &|\newline
+&|& \huge M &|& \textbackslash \text{huge M} &|& \text{+4} &|\newline
+&|& \LARGE M &|& \textbackslash \text{LARGE M} &|& \text{+3} &|\newline
+&|& \Large M &|& \textbackslash \text{Large M} &|& \text{+2} &|\newline
+&|& \large M &|& \textbackslash \text{large M} &|& \text{+1} &|\newline
+&|& \normalsize M &|& \textbackslash \text{normalsize M} &|& \text{0} &|\newline
+&|& \M &|& \text{M} &|& \text{0} &|\newline
+&|& \small M &|& \textbackslash \text{small M} &|& \text{-1} &|\newline
+&|& \scriptsize M &|& \textbackslash \text{scriptsize M} &|& \text{-2} &|\newline
+&|& \tiny M &|& \textbackslash \text{tiny M} &|& \text{-3} &|\newline
+\end{align*}
+$$
