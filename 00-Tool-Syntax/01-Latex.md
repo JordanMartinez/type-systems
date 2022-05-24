@@ -127,7 +127,7 @@ $$
 &|& \mathrm{Symbol} &|& \mathrm{LaTeX} &|& \mathrm{English} &|\newline
 &|& \mathrm{-} &|& \mathrm{-} &|& \mathrm{-} &|\newline
 &|& \varnothing &|& \textbackslash \text{varnothing} &|& \text{Empty set} &|\newline
-&|& \\{ 1, 2 \\} &|& \textbackslash \{ \text{1, 2} \textbackslash \} &|& \text{A set of two elements: 1 and 2} &|\newline
+&|& \\{ 1, 2 \\} &|& \textbackslash \textbackslash \\{ \text{1, 2} \textbackslash \textbackslash \\} &|& \text{A set of two elements: 1 and 2} &|\newline
 &|& \mathbb{N} &|& \textbackslash \text{mathbb{N}} &|& \text{Natural numbers: } i \in \\{ 1, 2 ..., \infty \\} &|\newline
 &|& \mathbb{Z} &|& \textbackslash \text{mathbb{Z}} &|& \text{Integers: } i \in \\{ -\infty, -1, 0, 1 ..., \infty \\} &|\newline
 &|& \in &|& \textbackslash \text{in} &|& \text{In / is a member of} &|\newline
