@@ -125,8 +125,8 @@ $$
 | - | - | - |
 | $\varnothing$ | `\varnothing` | Empty set
 | $\\{ 1, 2 \\}$ | `\{1, 2\}` | A set of two elements: 1 and 2
-| $\mathbb{N}$ | `\mathbb{N}` | Natural numbers: $i \in \\{ 1, 2, ..., \infty \\}$
-| $\mathbb{Z}$ | `\mathbb{Z}` | Integers: $i \in \\{ -\infty, ..., -1, 0, 1, ..., \infty \\}$
+| $\mathbb{N}$ | `\mathbb{N}` | Natural numbers: $i \in \\{ 1, 2, \ldots, \infty \\}$
+| $\mathbb{Z}$ | `\mathbb{Z}` | Integers: $i \in \\{ -\infty, \ldots, -1, 0, 1, \ldots, \infty \\}$
 | $\in$ | `\in` | In / is a member of |
 | $\notin$ | `\notin` | Not in / is not a member of |
 | $\subset$ | `\subset` | Subset |
