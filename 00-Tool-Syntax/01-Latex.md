@@ -1,10 +1,11 @@
 # LaTeX
 
-Throughout this work, LaTeX will be used, especialy since GitHub markdown now renders it automatically. Below is a LaTeX cheatsheet. Symbols are mapped to their definition in LaTeX and their meaning in English. I use this also to verify that GitHub renders content correctly.
+Throughout this work, LaTeX will be used, especialy since GitHub markdown now renders it automatically via Mathjax. Below is a LaTeX cheatsheet. Symbols are mapped to their definition in LaTeX and their meaning in English. I use this also to verify that GitHub renders content correctly.
 
 Sources used:
 - [Using LaTeX in Markdown](https://ashki23.github.io/markdown-latex.html#latex)
 - [List of LaTeX Symbols](https://latex.wikia.org/wiki/List_of_LaTeX_symbols)
+- [TEX Commands available in MathJax](https://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm)
 
 **Note:** You can right-click the rendered expression to get a Mathjax context menu. The following menu options may be helpful:
 - `Show Math As > Tex Commands`: See what the underlying LaTeX is that produces that expression
