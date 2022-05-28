@@ -1,5 +1,7 @@
 # Type-Systems
 
+This repo is an attempt at summarizing the main ideas behind type systems, so that I can better understand how [PureScript](https://github.com/purescript/purescript)'s type system works with the goal of improving said type system.
+
 ## License
 
 Unless stated otherwise in a specific folder or file, this project is licensed under the `Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license`: [(Human-readable version)](https://creativecommons.org/licenses/by-nc-sa/4.0/), [(Actual License)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
